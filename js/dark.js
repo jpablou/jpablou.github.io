@@ -60,8 +60,9 @@ GW.modeStyles = `
     :root {
         --GW-blockquote-background-color: #ddd
     }
+    
     body::before,
-    body > * {
+    body > h1, h2, h3, h4, a, time, code, i  {
         filter: invert(90%)
     }
     body::before {
@@ -109,9 +110,7 @@ GW.modeStyles = `
              .15em      0 var(--GW-blockquote-background-color),
             -.15em      0 var(--GW-blockquote-background-color)
     }
-    #logo img {
-        filter: none;
-    }
+
     #mode-selector {
         opacity: 0.6;
     }

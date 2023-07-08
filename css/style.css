@@ -54,7 +54,11 @@ hr {
   margin: 1.5em 0;
 }
 
+.all-posts  {
+  font-size: larger;
+  font-weight: bolder;
+}
+
 #avatar {
-  filter: invert(100%);
   width: 20em;
 }
