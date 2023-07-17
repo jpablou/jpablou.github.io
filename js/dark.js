@@ -62,7 +62,7 @@ GW.modeStyles = `
     }
     
     body::before,
-    body > h1, h2, h3, h4, a, time, code, i  {
+    body > h1, h2, h3, h4, a, time, i  {
         filter: invert(90%)
     }
     body::before {
